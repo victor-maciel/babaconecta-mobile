@@ -1,0 +1,50 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Cadastro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Nome:</ion-label>
+      <ion-input type="text" [(ngModel)]="baba.nome"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>CPF:</ion-label>
+      <ion-input type="text" [(ngModel)]="baba.CPF"></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label floating>RG:</ion-label>
+      <ion-input type="text" [(ngModel)]="baba.rg"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Endereço:</ion-label>
+      <ion-input type="text" [(ngModel)]="baba.endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Celular:</ion-label>
+      <ion-input type="text" [(ngModel)]="baba.celular"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Email:</ion-label>
+      <ion-input type="email" [(ngModel)]="baba.email"></ion-input>
+    </ion-item>
+  
+  </ion-list>
+
+  <button ion-button (click)="confirmarCadastro()">Confirmar</button>
+
+
+</ion-content>
