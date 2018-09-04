@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { LoginPage } from '../pages/login/login';
+import { InformeEnvioCadastroPage } from '../pages/informe-envio-cadastro/informe-envio-cadastro';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     CadastroPage,
-    LoginPage
+    LoginPage,
+    InformeEnvioCadastroPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { LoginPage } from '../pages/login/login';
     MyApp,
     HomePage,
     CadastroPage,
-    LoginPage
+    LoginPage,
+    InformeEnvioCadastroPage
   ],
   providers: [
     StatusBar,
